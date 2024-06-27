@@ -1,0 +1,37 @@
+img{
+    height:100px;
+    margin:20px;
+    width:100px;
+    border-radius: 50%;
+    
+}
+body{
+    text-align: center;
+}
+
+section{
+    background-color: rgb(245, 164, 13);
+    width:50%;
+    margin: -70px auto 150px auto;
+    padding: 50px;
+    border-radius: 1em;
+    box-shadow:0px 10px 12px  rgb(88, 86, 86);
+}
+p{
+    font-size: 1.5em;
+    color: rgb(243, 238, 225);
+}
+h1{
+    color: white;
+    font-size: 2.4em;
+}
+@media screen and (max-width:440px) {
+    section{
+        width: 90%;
+    }
+}
+@media screen and (max-width:540px) {
+    section{
+        width: 80%;
+    }
+}
